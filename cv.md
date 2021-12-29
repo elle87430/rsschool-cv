@@ -5,7 +5,7 @@
 ![cv_photo](https://user-images.githubusercontent.com/96053632/147657112-f18c402d-d3d8-431e-bd11-dec60f37d236.jpg)
 
 ### Contacts
-__E-mail:__ [elle87430@gmail.com](mailto:elle87430@gmail.com)  |  __Discord:__ Elena Sheludchenko (@elle87430)
+__E-mail:__ [elle87430@gmail.com](mailto:elle87430@gmail.com)  |  __Discord:__ Elena Sheludchenko (@elle87430)  |  __GitHub:__ [elle87430](https://github.com/elle87430)
 
 ### About Me
 I am an electrical circuits engineer who wants to learn javascript and eventually get a position as a JS developer. Working as an engineer for more than twelve years has taught me to be persistent and organised and to always learn new things and skills when the opportunity presents itself. I've learnt HTML back in the university days and recently found it very interesting again. My other hobbies are singing and learning languages.
