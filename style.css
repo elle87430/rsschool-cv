@@ -1,8 +1,24 @@
-body {
-  background-color: #333333;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  color: #0011aa;
-  margin-left: 20px;
+body {
+  background-color: #333333;
+  font-family: Raleway;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Licorice";
+  src: url("assets/fonts/Licorice-Regular.ttf");
+  font-weight: 400;
 }
