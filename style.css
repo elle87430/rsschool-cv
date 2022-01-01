@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   background-color: #aaa;
   font-family: Raleway;
@@ -25,18 +29,44 @@ footer {
   border: 1px solid yellow;
 }
 
+.nav {
+  border: 1px dotted white;
+}
+
+.nav-list {
+  border: 1px dotted blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
 .nav-item {
   border: 1px solid green;
 }
 
 .nav-link {
   border: 1px dotted black;
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: teal;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  border: 1px solid black;
+  color: brown;
 }
 
 .container {
   border: 1px solid violet;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.section-title {
+  border: 1px dotted blueviolet;
 }
 
 @font-face {
