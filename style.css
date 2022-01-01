@@ -1,14 +1,34 @@
+@font-face {
+  font-family: "RalewayLight";
+  src: url("assets/fonts/Raleway-Light.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Licorice";
+  src: url("assets/fonts/Licorice-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Courier";
+  src: url("assets/fonts/CourierPrime-Regular.ttf");
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #aaa;
-  font-family: Raleway;
+  background-color: #eee;
+  font-family: "RalewayLight";
+  font-size: 14px;
+  font-style: bold;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -63,24 +83,54 @@ footer {
   border: 1px solid violet;
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  list-style: none;
+}
+
+.main-link {
+  text-decoration: none;
+  color: teal;
+  transition: 0.5s;
+}
+
+.main-link:hover {
+  text-decoration: underline;
+  color: rgb(6, 65, 65);
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 
 .section-title {
   border: 1px dotted blueviolet;
+  font-family: "RalewayLight";
 }
 
-@font-face {
-  font-family: "Raleway";
-  src: url("assets/fonts/Raleway-SemiBold.ttf");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("assets/fonts/Raleway-Thin.ttf");
-  font-weight: 100;
-}
-@font-face {
+.highlight-span {
   font-family: "Licorice";
-  src: url("assets/fonts/Licorice-Regular.ttf");
-  font-weight: 400;
+  font-size: 18px;
+}
+
+.code-example {
+  font-family: "Courier";
+  font-size: 18px;
+}
+
+.rss-icon {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/img/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
