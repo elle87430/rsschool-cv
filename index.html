@@ -36,38 +36,48 @@
 
     <main class="main">
       <div class="container">
-        <section class="section" id="profile">
-          <h1 class="section-title">Profile</h1>
-          <p>
-            Elena Sheludchenko<br /><span class="highlight-span">Future</span>
-            Javascript Developer<br /><img
-              src="assets/img/cv_photo.jpg"
-              alt="My Photo"
-            />
+        <section class="section" id="photo">
+          <p class="photo-contents">
+            <img src="assets/img/cv_photo.jpg" alt="My Photo" />
           </p>
         </section>
-        <section class="section" id="contacts">
-          <h2 class="section-title">Contacts</h2>
-          <ul>
-            <li class="main-item">
+        <section class="section">
+          <h1 class="section-title" id="profile">Profile</h1>
+          <p class="profile-contents">
+            Elena Sheludchenko<br /><span class="highlight-span">Future</span>
+            Javascript Developer<br />
+          </p>
+          <h2 class="section-title" id="contacts">Contacts</h2>
+          <ul class="section-lists">
+            <li>
               E-mail:
               <a href="mailto:elle87430@gmail.com" class="main-link"
                 >elle87430@gmail.com</a
               >
             </li>
-            <li class="main-item">Discord: Elena Sheludchenko (@elle87430)</li>
-            <li class="main-item">
+            <li>Discord: Elena Sheludchenko (@elle87430)</li>
+            <li>
               GitHub:
               <a href="https://github.com/elle87430" class="main-link"
                 >elle87430</a
               >
             </li>
-            <li class="main-item">Russia, St.Petersburg</li>
+          </ul>
+          <h2 class="section-title" id="languages">Languages</h2>
+          <ul class="section-lists">
+            <li>Russian - native</li>
+            <li>
+              English - proficient (C2, according to
+              <a href="https://www.efset.org/cert/HTsWmg" class="main-link"
+                >EF SET</a
+              >)
+            </li>
+            <li>Korean - intermediate</li>
           </ul>
         </section>
-        <section class="section" id="about-me">
-          <h2 class="section-title">About Me</h2>
-          <p>
+        <section class="section">
+          <h2 class="section-title" id="about-me">About Me</h2>
+          <p class="section-contents">
             I am an electrical circuits engineer who wants to learn javascript
             and eventually get a position as a JS developer. Working as an
             engineer for more than twelve years has taught me to be persistent
@@ -77,27 +87,58 @@
             are singing and learning languages.
           </p>
         </section>
-        <section class="section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <ul>
-            <li class="main-item">
-              HTML <span class="highlight-span">on a basic level</span>
-            </li>
-            <li class="main-item">
+        <section class="section">
+          <h2 class="section-title" id="skills">Skills</h2>
+          <ul class="section-lists">
+            <li>HTML <span class="highlight-span">on a basic level</span></li>
+            <li>
               Photoshop <span class="highlight-span">on a basic level</span>
             </li>
           </ul>
+          <h2 class="section-title" id="projects">Projects</h2>
+          <ul class="section-lists">
+            Curriculum Vitae HTML Project:
+            <a href="https://github.com/elle87430/rsschool-cv" class="main-link"
+              >rsschool-cv</a
+            >
+          </ul>
         </section>
-        <section class="section" id="code-examples">
-          <h2 class="section-title">Code Examples</h2>
-          <p>
-            The only one I have so far is the CodeWars sign up test:<br />
+        <section class="section">
+          <h2 class="section-title" id="education">Education</h2>
+          <ul class="section-lists">
+            <li>
+              Omsk State Technical University <br />
+              <span class="highlight-span"
+                >2004-2009, specialized in Production Automation</span
+              >
+            </li>
+            <li>
+              Mentor Graphics EDA Software: Xpedition Designer, Layout &
+              HyperLynx <br /><span class="highlight-span">2019</span>
+            </li>
+            <li>
+              FPGA programming basics <br /><span class="highlight-span"
+                >2020</span
+              >
+            </li>
+            <li>
+              RS School «JavaScript/Front-end. Stage 0» <br />
+              <span class="highlight-span">in progress</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title" id="code-examples">Code Examples</h2>
+          <p class="section-contents">
+            <span class="highlight-span">
+              The only one I have so far is the CodeWars sign up test:</span
+            ><br /><br />
             <span class="code-example"
               >function multiply(a, b){<br />
               return a * b;<br />
               }</span
-            ><br />
-            Here is a link to my CodeWars profile:<br />
+            ><br /><br />
+            More on CodeWars:
             <a
               href="https://www.codewars.com/users/elle87430/completed_solutions"
               class="main-link"
@@ -105,49 +146,14 @@
             >
           </p>
         </section>
-        <section class="section" id="projects">
-          <h2 class="section-title">Projects</h2>
-          <ul>
-            <a href="https://github.com/elle87430/rsschool-cv" class="main-link"
-              >rsschool-cv</a
-            >
-          </ul>
-        </section>
-        <section class="section" id="education">
-          <h2 class="section-title">Education</h2>
-          <ul>
-            <li class="main-item">
-              Omsk State Technical University (2004-2009, Automation Technology)
-            </li>
-            <li class="main-item">
-              Mentor Graphics EDA Software: Xpedition Designer, Layout &
-              HyperLynx (2019)
-            </li>
-            <li class="main-item">FPGA programming basics (2020)</li>
-            <li class="main-item">
-              RS School «JavaScript/Front-end. Stage 0» course (in progress)
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul>
-            <li class="main-item">Russian - native</li>
-            <li class="main-item">
-              English - proficient (C2, according to
-              <a href="https://www.efset.org/cert/HTsWmg" class="main-link"
-                >EF SET</a
-              >)
-            </li>
-            <li class="main-item">Korean - intermediate</li>
-          </ul>
-        </section>
       </div>
     </main>
 
     <footer class="footer">
-      <div class="rss-icon">
-        <a href="https://rs.school/js/">RSSchool/JS</a>
+      <div class="footer-container">
+        <p class="photo-contents">© 2022</p>
+        <a href="https://github.com/elle87430" class="github-icon"></a>
+        <a href="https://rs.school/js/" class="rss-icon"></a>
       </div>
     </footer>
   </body>
